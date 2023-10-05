@@ -121,7 +121,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 table {
@@ -138,4 +138,10 @@ button {
   border: none;
   background: none;
   cursor: pointer;
+}
+
+/* 추가 */
+#root {
+  height: 100vh;
+  background-color: rgb(255, 246, 247);
 }
